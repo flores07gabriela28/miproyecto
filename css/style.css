@@ -293,9 +293,6 @@ grid-template-areas:
         "img1 img1 img4 img5";
 gap: 10px;
 }
-
-
-
 .proyectos__img {
     width: 100%;
     height: 100%;
@@ -303,38 +300,27 @@ gap: 10px;
     cursor: pointer;
   
 }
-
 .proyectos_item:nth-last-of-type(1) {
     grid-area: img1;
 }
-
 .proyectos_item:nth-last-of-type(2) {
     grid-area: img2;
-
 }
-
 .proyectos_item:nth-last-of-type(3) {
     grid-area: img3;
-
 }
-
 .proyectos_item:nth-last-of-type(4) {
     grid-area: img4;
 }
-
 .proyectos_item:nth-last-of-type(5) {
     grid-area: img5;
-
 }
-
-
 .proyectos_hover{
 background: #6b65a2;
 width: 100%;
 height:100%;
 text-align: center;
 display: flex;
-
 justify-content: center;
 transform: translateX(100%);
 cursor: pointer;
@@ -343,7 +329,6 @@ border:solid black;
 align-items: flex-start;
 flex-flow: row wrap;
 align-content: space-around;
-
 }
 .proyectos__icon{
 margin-top: 10px;
@@ -352,7 +337,6 @@ font-size: 30px;
 .proyectos_item:hover .proyectos_hover{
     transform:  translateX(0%);
 }
-
 /*responsive design*/
 
 
@@ -370,7 +354,6 @@ font-size: 30px;
     .nav{
         justify-content: space-around;
         
-
     }
 .nav__items{
     font-weight: 400;
@@ -379,7 +362,6 @@ font-size: 30px;
 }
 .nav__items--cta{
     border: none;
-
 }
 .nav--footer{
     border:none;
@@ -389,14 +371,12 @@ width: 100%;
 margin-bottom: 80px;
 text-align: center;
 }
-
 .pagina__titulo{
     font-size: 2.5rem;
 }
 .pagina__subtitulo{
     font-size: 2rem;
 margin-bottom: 20px;
-
 }
 .presentacion__logo{
     width: 120px;
@@ -406,7 +386,6 @@ margin-bottom: 20px;
     width: 100%;
     padding-top: 10%;
 }
-
 .about_contenido{
 grid-template-columns: 1fr;
 row-gap: 60px;
@@ -415,11 +394,6 @@ row-gap: 60px;
     padding-top: 10px;
     
 }
-
-
-
-
-
 .proyectos_grid{
 grid-template-areas:
         "img1"
@@ -428,23 +402,17 @@ grid-template-areas:
         "img4"
         "img5";
         
-
 }
-
 .about__img--left{
     text-align:  center;
 }
 .about__text:last-child{
     grid-row: 3/4;
-
 }
-
-
 .footer__grid{
     grid-template-columns: 1fr;
 }
 .footer__contactos{
     grid-row:inherit;
 }
-
 }*/
